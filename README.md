@@ -7,7 +7,7 @@ A practical implementation of Spring Boot Security with JWT token generation and
 
 - **Java:** 17  
 - **IDE:** VS Code / IntelliJ / Spring STS 
-- **Database:** PostgreSQL  
+- **Database:** MySQL  
 
 ---
 
@@ -39,7 +39,7 @@ A practical implementation of Spring Boot Security with JWT token generation and
 4. Configure Environment Variables
    Create a .env file in the root directory of the project (/spring_security) and add the following content, updating the values to match your setup:
    ```
-   SPRING_DATASOURCE_URL=jdbc:postgresql://localhost:5432/db_name
+   SPRING_DATASOURCE_URL=jdbc:mysql://localhost:3306/db_name
    SPRING_DATASOURCE_USERNAME={your_username}
    SPRING_DATASOURCE_PASSWORD={your_password}
    JWT_SECRET_KEY={your_256_bit_secret_key}
@@ -57,7 +57,7 @@ A practical implementation of Spring Boot Security with JWT token generation and
 1. User authentication with JWT
 2. Secure endpoints with role-based access control
 3. Environment-based configuration
-4. PostgreSQL database integration
+4. MySQL database integration
 
 ---
 
